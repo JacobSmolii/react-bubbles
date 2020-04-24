@@ -1,0 +1,47 @@
+*{
+    background-color: lavender;
+}
+
+ul li{
+    list-style: none;
+    margin-top: 10px;
+    text-transform: none;
+}
+.links a{
+    color:darkgreen;
+}
+.welcome_login{
+    justify-content: center;
+    align-items: center;
+}
+.login_form{
+    margin-top: 100px;
+    margin-left: 400px;
+}
+.login_form input{
+    display: flex;
+    background-color:white;
+    width:330px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.button_log_in{
+    margin-top: 10px;
+}
+.button_log_out{
+    margin-top: 50px;
+}
+.button_log_in{
+    text-align: center;
+    width: 180px;
+    height: 25px;
+    margin-left: 100px;
+    background-color: lightgoldenrodyellow;
+}
+input[type=text]:focus, textarea:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgba(81, 203, 238, 1);
+}
